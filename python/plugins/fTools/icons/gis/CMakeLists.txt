@@ -1,0 +1,3 @@
+FILE(GLOB ICON_FILES *.png)
+
+PLUGIN_INSTALL(fTools icons/gis ${ICON_FILES})
